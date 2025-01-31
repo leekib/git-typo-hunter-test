@@ -3,7 +3,7 @@
 /**
  * TSDoc style comment block
  * This is a simple TypeScript program that
- * demonstrates different comment styles
+ * demonstrate different comment styles
  * @packageDocumentation
  */
 
@@ -16,8 +16,8 @@ interface Person {
 }
 
 /**
- * Class representing a greeter
- * @remarks This is a detailed explanation of the Greeter class
+ * Class representing greeter
+ * @remarks This is an detailed explanation of the Greeter class
  */
 class GreeterTypeScript {
     /* Block comment:
@@ -25,7 +25,7 @@ class GreeterTypeScript {
     private readonly person: Person; // Using Person interface
 
     /**
-     * Creates an instance of Greeter
+     * Create an instance of Greeter
      * @param name - The name to use in greetings
      */
     constructor(name: string) {
@@ -44,8 +44,8 @@ class GreeterTypeScript {
     }
 
     /*
-     * TODO: Add localization support
-     * FIXME: Add proper error handling
+     * TODO: Add localizations support
+     * FIXME: Add proper errors handling
      */
 }
 

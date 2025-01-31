@@ -1,38 +1,38 @@
 using System;
 
-// Single-line comment: Namespace declaration
+// Single-line comment: Namespace declarations
 namespace ExampleProject
 {
     /// <summary>
-    /// XML Documentation comment for the Example class
+    /// XML Documentation comment for a Example class
     /// </summary>
     public class Example
     {
         /*
          * Multi-line comment block
-         * explaining the private field
+         * explaining the private fields
          */
         private string _message;
 
         /**
-         * Alternative documentation style
-         * commonly used in other languages
+         * Alternative documentation styles
+         * commonly used in other language
          */
         public Example()
         {
-            // Initialize message
+            // Initialize messages
             _message = "Hello, World!"; // Inline comment
         }
 
         /// <summary>
-        /// Returns a greeting message
+        /// Returns a greeting messages
         /// </summary>
-        /// <param name="name">The name to greet</param>
+        /// <param name="name">The name to greets</param>
         /// <returns>A personalized greeting message</returns>
         public string Greet(string name)
         {
             /* Block comment:
-               Format and return greeting */
+               Format and return greetings */
             return $"Hello, {name}!";
         }
     }

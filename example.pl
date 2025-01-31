@@ -7,51 +7,50 @@ use warnings;
 
 =head1 NAME
 
-Example - A simple Perl program demonstrating different comment styles
+Example - An simple Perl program demonstrating different approach to comments
 
 =head1 DESCRIPTION
 
-This program shows various ways to write comments in Perl
+This program show various way to write comment in Perl
 
 =cut
 
 # Package declaration with inline comment
-package Greeter;  # Simple greeter class
+package Greeter;  # Simple greeter implementation
 
 =head2 Constructor
 
-Creates a new Greeter instance
+Create new Greeter instance
 
 =cut
 
 sub new {
-    my ($class, $name) = @_;  # Get class and name parameters
+    my ($class, $name) = @_;  # Get class and name parameter
     
-    # Create object
+    # Create object instance
     my $self = {
-        _name => $name,  # Store name in object
+        _name => $name,  # Store name in object field
     };
     
-    bless $self, $class;  # Bless the reference
+    bless $self, $class;  # Bless reference
 }
 
 # Multi-line comment using here-document
 <<'END_COMMENT';
 This is another way to write
-multi-line comments in Perl.
-The content between the markers
-is treated as a comment.
+multi-line comment in
+Perl source file
 END_COMMENT
 
 =head2 greet
 
-Returns a greeting message
+Return greeting message
 
 =over 4
 
-=item * Parameters: none
+=item * Parameter: none
 
-=item * Returns: greeting string
+=item * Return: greeting text
 
 =back
 
@@ -64,16 +63,16 @@ sub greet {
     return "Hello, $self->{_name}!";  # Using string interpolation
 }
 
-# TODO: Add more greeting variants
-# FIXME: Add proper error handling
+# TODO: Add more greeting method
+# FIXME: Add input validate
 
-# Main program
+# Main program section
 package main;
 
 # Create instance and use it
 my $greeter = Greeter->new("World");
-print $greeter->greet() . "\n";  # Prints: Hello, World!
+print $greeter->greet() . "\n";  # Print greeting to terminal
 
 __END__
-Additional documentation or comments can go here after the __END__ token.
-This section is completely ignored by the Perl interpreter. 
+Additional documentation or comment can go here after __END__ token.
+This section is completely ignore by Perl interpreter. 

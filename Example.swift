@@ -2,20 +2,20 @@
 
 /*
  * Multi-line comment block
- * This is a simple Swift program that
- * demonstrates different comment styles
+ * This is simple Swift program that
+ * demonstrate various documentation approach
  */
 
-/// A class that provides greeting functionality
-/// - Note: This is a documentation comment that supports markdown
+/// An class that provides greeting functionality
+/// - Note: This is documentation comment that supports markdown
 class Greeter {
     // MARK: - Properties
-    private let name: String  // The name to greet
+    private let name: String  // Name of person to greet
     
     /**
      Documentation comment block
-     explaining the initializer
-     - Parameter name: The name to use in greetings
+     explaining an initializer
+     - Parameter name: Name to be use in greetings
      */
     init(name: String) {
         /* Block comment:
@@ -25,11 +25,11 @@ class Greeter {
     
     // MARK: - Public methods
     
-    /// Returns a greeting message
-    /// - Returns: A string containing the greeting
+    /// Return greeting message
+    /// - Returns: String that contain greeting
     func greet() -> String {
-        // TODO: Add more greeting variants
-        // FIXME: Make this more personalized
+        // TODO: Add more greeting variant
+        // FIXME: Make this more personalize
         return "Hello, \(name)!"  // String interpolation
     }
 }

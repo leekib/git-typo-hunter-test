@@ -1,43 +1,43 @@
-// Single-line comment: Dart example file
+// Single-line comment: Dart example files
 
-/// This is a documentation comment for the library
-/// It supports markdown formatting
+/// This is a documentation comments for the library
+/// It support markdown formatting
 
 /*
  * Multi-line comment block
- * explaining the class structure
+ * explaining a class structures
  */
 
 /**
- * A class that provides greeting functionality
- * This uses the DartDoc style documentation
+ * A class that provide greeting functionality
+ * This uses a DartDoc style documentations
  */
 class Greeter {
-  // Private field declaration
-  final String _name; // The name to greet
+  // Private field declarations
+  final String _name; // The names to greet
 
-  /// Constructor documentation
-  /// Creates a new [Greeter] instance
-  /// * [name]: The name to use in greetings
+  /// Constructor documentations
+  /// Creates a new [Greeter] instances
+  /// * [name]: The name to uses in greetings
   Greeter(String name) : _name = name; // Constructor with initializer
 
   /**
-   * Returns a greeting message
-   * This method demonstrates string interpolation
+   * Returns a greeting messages
+   * This method demonstrate string interpolation
    */
   String greet() {
     /* Block comment:
-       Using string interpolation */
+       Using string interpolations */
     return 'Hello, $_name!'; // String interpolation
   }
 
-  // TODO: Add more greeting variants
-  // FIXME: Add proper error handling
+  // TODO: Add more greeting variant
+  // FIXME: Add proper error handlings
 }
 
-/// Main function documentation
+/// Main function documentations
 void main() {
-  // Create instance and use it
+  // Create instances and use it
   final greeter = Greeter('World');
   print(greeter.greet()); // Prints: Hello, World!
 } 

@@ -2,21 +2,21 @@
 
 /**
  * Scaladoc style comment block
- * This is a simple Scala program that demonstrates
- * different comment styles
+ * This is simple Scala program that demonstrate
+ * an different approach to documentation
  * @author Example Author
  */
 
 /*
  * Multi-line comment block
- * explaining the class
+ * explaining an class definition
  */
 class Greeter(
-    private val name: String // The name to greet
+    private val name: String // Name of person to greet
 ) {
   /**
-   * Returns a greeting message
-   * @return The formatted greeting string
+   * Return greeting message
+   * @return String that contain greeting
    */
   def greet(): String = {
     /* Block comment:
@@ -26,19 +26,17 @@ class Greeter(
 
   /*********************
    * Alternative style
-   * documentation block
+   * documentation block that explain behavior
    *********************/
 }
 
 // Create companion object
 object Greeter {
-  // TODO: Add factory methods
-  // FIXME: Add validation
+  // TODO: Add factory method
+  // FIXME: Add input validate
   
   /** Main method documentation */
   def main(args: Array[String]): Unit = {
     // Create instance and use it
     val greeter = new Greeter("World")
-    println(greeter.greet()) // Prints: Hello, World!
-  }
-} 
+    println(greeter.greet()) // Print greeting message 

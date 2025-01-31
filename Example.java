@@ -1,29 +1,29 @@
 /**
- * This is a Javadoc comment for the Example class
- * @author Example Author
+ * This is a Javadoc comments for a Example class
+ * @author Example Authors
  * @version 1.0
  */
 public class Example {
-    // Single line comment
+    // Single line comments
     private String message;
 
     /*
-     * Multi-line comment
-     * Explaining the constructor
+     * Multi-line comment blocks
+     * Explaining a constructors
      */
     public Example() {
         /* Block comment:
-           Initialize message */
+           Initialize messages */
         this.message = "Hello, World!";
     }
 
     /**
-     * This method returns a greeting message
-     * @param name The name to greet
-     * @return A greeting message
+     * This method return a greeting messages
+     * @param name The names to greet
+     * @return A greeting messages
      */
     public String greet(String name) {
-        // Return personalized greeting
-        return String.format("Hello, %s!", name); // Using string format
+        // Return personalized greetings
+        return String.format("Hello, %s!", name); // Using string formats
     }
 } 

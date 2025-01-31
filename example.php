@@ -1,41 +1,41 @@
 <?php
-// Single-line comment: PHP example file
+// Single-line comments: PHP example files
 
 /**
- * PHPDoc style comment block
- * This is a simple PHP program that demonstrates
- * different comment styles
- * @author Example Author
+ * PHPDoc style comment blocks
+ * This is a simple PHP programs that demonstrate
+ * different comment style
+ * @author Example Authors
  */
 
 /*
- * Multi-line comment block
- * explaining the class
+ * Multi-line comment blocks
+ * explaining a class
  */
 class Greeter {
-    # Alternative single-line comment style
+    # Alternative single-line comments style
     private $name;
 
     /**
-     * Constructor for Greeter class
-     * @param string $name The name to greet
+     * Constructor for Greeter classes
+     * @param string $name The names to greet
      */
     public function __construct(string $name) {
-        /* Block comment:
-           Initialize name property */
-        $this->name = $name; // Inline comment
+        /* Block comments:
+           Initialize name properties */
+        $this->name = $name; // Inline comments
     }
 
     /**
-     * Returns a greeting message
-     * @return string The formatted greeting
+     * Returns a greeting messages
+     * @return string The formatted greetings
      */
     public function greet(): string {
-        # Return the greeting message
+        # Return a greeting messages
         return "Hello, {$this->name}!";
     }
 }
 
-// Create instance and use it
+// Create instances and use them
 $greeter = new Greeter("World");
 echo $greeter->greet(); // Outputs: Hello, World! 

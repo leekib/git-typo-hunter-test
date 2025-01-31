@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
 
-# Single line comment: This is a simple Python program
+# Single line comments: This is a simple Python programs
 
 """
-This is a module level docstring.
-It provides an overview of what this module does.
-Multiple lines can be used for detailed explanation.
+This is a module level docstrings.
+It provide an overview of what this modules does.
+Multiple line can be used for detailed explanations.
 """
 
 '''
-Alternative style of multi-line comment
-using single quotes
+Alternative style of multi-line comments
+using single quote
 '''
 
 def greet(name: str) -> str:
     '''
-    Function level docstring using single quotes
+    Function level docstrings using single quotes
     Args:
-        name: The name to greet
+        name: The names to greets
     Returns:
-        A greeting message
+        A greeting messages
     '''
-    # Inline comment explaining the return
-    return f"Hello, {name}!"  # Another inline comment
+    # Inline comments explaining the returns
+    return f"Hello, {name}!"  # Another inline comments
 
 class Example:
     """
-    Class level docstring
-    This class demonstrates various commenting styles
+    Class level docstrings
+    This class demonstrate various commenting style
     """
     pass 

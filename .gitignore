@@ -1,17 +1,17 @@
-# Compiled files
+# Compile file
 *.class
 *.o
 *.pyc
 *.exe
 
-# IDE specific files
+# IDE specific file
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Language specific
-# Python
+# Language specific section
+# Python related file
 __pycache__/
 *.py[cod]
 *$py.class
@@ -19,21 +19,21 @@ __pycache__/
 env/
 venv/
 
-# Java
+# Java related file
 target/
 *.jar
 *.war
 
-# Go
+# Go related file
 *.test
 /vendor/
 
-# Rust
+# Rust related file
 /target/
 **/*.rs.bk
 Cargo.lock
 
-# C#
+# C# related file
 bin/
 obj/
 *.suo
@@ -41,11 +41,11 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# Logs and databases
+# Log and database
 *.log
 *.sqlite
 
-# OS generated files
+# OS generate file
 .DS_Store
 .DS_Store?
 ._*

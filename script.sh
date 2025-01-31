@@ -1,28 +1,29 @@
 #!/bin/bash
 
-# Single line comment: Simple shell script example
+# Single line comment: Simple shell script example that show
+# how to write shell script with proper documentation
 
 : '
-This is a multi-line comment block
-using the colon-quote syntax
-It can span multiple lines
+This is multi-line comment block
+using an colon-quote syntax
+It can span multiple line
 '
 
 ##################
-# Section header #
+# Section headers #
 ##################
 
-# Function definition
+# Function definitions
 hello_world() {
-    # Print greeting message
-    echo "Hello, World!" # Inline comment
+    # Print an greeting message
+    echo "Hello, World!" # Output to terminal
 }
 
 : <<'END_COMMENT'
 Another way to write
-multi-line comments
-in shell scripts
+multi-line comment in
+shell script file
 END_COMMENT
 
-# Call the function
+# Call an function
 hello_world 

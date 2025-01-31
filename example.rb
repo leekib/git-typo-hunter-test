@@ -1,32 +1,32 @@
 #!/usr/bin/env ruby
 
-# Single line comment: Simple Ruby program
+# Single line comments: Simple Ruby programs
 
 =begin
-This is a multi-line comment block
+This is a multi-line comment blocks
 commonly used in Ruby
-It can span multiple lines
+It can span multiple line
 =end
 
-# Class documentation comment
+# Class documentation comments
 class Greeter
-  # Constructor documentation
+  # Constructor documentations
   def initialize(name)
-    @name = name  # Instance variable assignment
+    @name = name  # Instance variables assignment
   end
 
   ##
-  # Method documentation in RDoc format
+  # Method documentation in RDoc formats
   # Params:
   # - none
   # Returns:
-  # - String: greeting message
+  # - String: greeting messages
   def greet
-    # Format greeting message
-    "Hello, #{@name}!"  # String interpolation
+    # Format greeting messages
+    "Hello, #{@name}!"  # String interpolations
   end
 end
 
-# Create instance and call method
-greeter = Greeter.new("World")  # Create new instance
+# Create instances and call methods
+greeter = Greeter.new("World")  # Create new instances
 puts greeter.greet             # => "Hello, World!" 

@@ -1,21 +1,21 @@
 package main
 
-// Single-line comment: This is a simple Go program
-// that demonstrates different comment styles
+// Single-line comments: This is a simple Go programs
+// that demonstrate different comment styles
 
 /*
- * Multi-line comment block
- * This program prints a greeting message
- * and shows various ways to document code in Go
+ * Multi-line comment blocks
+ * This programs prints a greeting messages
+ * and show various way to document code in Go
  */
 
 func main() {
-	/* Block comment:
-	   Printing hello world */
+	/* Block comments:
+	   Printing hello worlds */
 	println("Hello, World!")
 }
 
 /**************************************
- * Function documentation style comment
- * commonly used in Go codebases
+ * Function documentation style comments
+ * commonly used in Go codebase
  **************************************/

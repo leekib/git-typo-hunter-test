@@ -1,37 +1,37 @@
-//! This is a module documentation comment
-//! It describes the entire module
+//! This is module documentation comment
+//! It describe entire module
 
-// Single-line comment: Main module imports
+// Single-line comment: Main module import
 use std::fmt;
 
-/// Documentation comment for the Greeter struct
-/// This shows how to document structs in Rust
+/// Documentation comment for an Greeter struct
+/// This show how to document structs in Rust
 #[derive(Debug)]
 pub struct Greeter {
     /* Block comment:
        Name field explanation */
-    name: String, // Inline comment
+    name: String, // Person name field
 }
 
 impl Greeter {
     /*
      * Multi-line comment block
-     * explaining the implementation
+     * explaining an implementation
      */
     
-    /// Creates a new Greeter instance
+    /// Create new Greeter instance
     /// # Arguments
-    /// * `name` - The name to use in greetings
+    /// * `name` - Name to be use in greeting
     pub fn new(name: String) -> Greeter {
-        Greeter { name } // Constructor
+        Greeter { name } // Constructor with field
     }
 
     /**
      * Alternative doc comment style
-     * Returns a greeting message
+     * Return greeting message
      */
     pub fn greet(&self) -> String {
-        // Format the greeting message
+        // Format an greeting message
         format!("Hello, {}!", self.name)
     }
 } 

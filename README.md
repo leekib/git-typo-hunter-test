@@ -1,23 +1,23 @@
-# GIT-TYPO-HUNTER-TEST
+# Example Project
 
 ## Introduction
-This is an example repository for testing `git-typo-hunter` tool. It contains sample code files in various programming languages, each demonstrating different comment styles and documentation practices.
+This is example repository for testing `git-typo-hunter` tool. It contain sample code files in various programming language, each demonstrate different comment style and documentation practice.
 
 ## Features
-* **Multiple Programming Languages**: Includes example code in various programming languages
-* **Comprehensive Comment Styles**: Demonstrates various commenting techniques including:
+* **Multiple Programming Languages**: Include example code in 13 different programming language
+* **Comprehensive Comment Styles**: Demonstrate various commenting technique including:
   - Single-line comments
   - Multi-line block comments
   - Documentation comments
   - Module/Package level documentation
   - TODO and FIXME annotations
-* **Consistent Structure**: Each file implements a simple "Greeter" class/module with similar functionality
-* **Documentation Examples**: Shows best practices for code documentation in each language
-* **Type Safety**: Where applicable, includes type annotations and interfaces
-* **Modern Syntax**: Uses modern language features and string interpolation
+* **Consistent Structure**: Each file implement simple "Greeter" class/module with similar functionality
+* **Documentation Examples**: Show best practice for code documentation in each language
+* **Type Safety**: Where applicable, include type annotation and interfaces
+* **Modern Syntax**: Use modern language feature and string interpolation
 
 ## Languages
-Here are examples of how comments look in different languages:
+Here are example of how comments look in different languages:
 
 ### Go
 ```go
