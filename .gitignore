@@ -1,0 +1,55 @@
+# Compiled files
+*.class
+*.o
+*.pyc
+*.exe
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Language specific
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Java
+target/
+*.jar
+*.war
+
+# Go
+*.test
+/vendor/
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# C#
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
