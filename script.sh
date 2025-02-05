@@ -25,5 +25,5 @@ multi-line comment in
 shell script file
 END_COMMENT
 
-# Call an function
+# Call a function
 hello_world 
