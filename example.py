@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Single line comments: This is a simple Python programs
+# Single line comments: This is a simple Python program
 
 """
 This is a module level docstrings.
